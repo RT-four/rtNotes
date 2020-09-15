@@ -1,0 +1,90 @@
+body {
+  background-color: #E2FFFE;
+  font-family: 'Inconsolata', monospace;
+}
+
+.date {
+  background-color: #61beba;
+  font-size: 3vw;
+  color: white;
+  padding: 0.3em;
+  border-radius: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  background-color: #E2FFFE;
+  font-size: 3vw;
+  margin-top: 10%;
+  min-width: 15em;
+}
+
+.m-box {
+  background-color: white;
+  border-radius: 0.5em 0.5em;
+}
+
+.item:last-of-type {
+  border-bottom: 1px solid #61beba;
+}
+
+.item {
+  display: flex;
+  border-bottom: 1px dashed #61beba;
+  padding: 0;
+  align-items: center;
+  min-height: 2em;
+}
+
+p {
+  margin: 0;
+}
+
+input[type="checkbox"] {
+  margin: 20px;
+}
+
+input:checked+p {
+  text-decoration: line-through;
+  text-decoration-color: #61beba;
+}
+
+input[type="text"] {
+  border-color: transparent;
+  width: 6em;
+
+}
+
+button {
+  border-radius: 100%;
+  width: 1.6em;
+  height: 1.6em;
+  color: white;
+  background-color: #61beba;
+  font-size: 1.5em;
+  text-align: center;
+  border: 0;
+}
+
+*,
+a:focus {
+
+  outline: none !important;
+
+}
+
+form {
+  padding: 0.5em;
+}
+
+.bottom {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.shadowed {
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+}
